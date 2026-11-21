@@ -1,0 +1,37 @@
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+logs/
+.env
+
+# raw downloads and resumable fit pieces (rebuilt by the scripts)
+data/ibl_cache/
+data/ibl_download_log.txt
+data/*/raw/
+results/ibl/parts/
+results/ibl_recovery_parts/
+results/recovery_parts/
+results/recovery_quick_parts/
+results/*/parts/
+
+# png copies of figures (the pdf versions are kept)
+figures/*.png
+
+# latex build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+report/*.bbl
+report/*.blg
+
+# os files
+.DS_Store
+Thumbs.db
